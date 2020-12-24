@@ -11,7 +11,7 @@ Flughafen Tegel
 <a href="kepler.gl.html" target="iframe">Karte 1</a>
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
-<iframe name="iframe" src="kepler.gl.html" width="1600px" height="800px" align="left">
+<iframe name="iframe" src="kepler.gl.html" width="1014px" height="768px" align="left">
 </iframe>
 </body>
 </html>
