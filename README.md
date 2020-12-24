@@ -6,10 +6,11 @@ nav a {
   display: inline;
   text-decoration: none;
   text-align: center;
-  float:right; 
-  margin: 0;
+  float:left; 
+  margin: -1;
   padding: 0;
   color: #d1e231;
+  overflow: hidden;
   border-right: 1px solid #bbb;
 }
 </style>
