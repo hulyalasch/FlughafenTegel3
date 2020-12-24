@@ -1,7 +1,21 @@
-
+# FlughafenTegel3
 <head>
 <meta charset="utf-8">
 <style>
+<div class="head">
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.head {
+  padding: 1px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 14px;
+}
 nav a {
   display: inline;
   text-decoration: none;
@@ -16,6 +30,9 @@ nav a {
 </style>
 </head>
 <body>
+<div class="header">
+  <h1>My Website</h1>
+</div>
 <nav>
 <a href="kepler.gl.html" target="iframe">Karte 1</a>
 <a href="hello.html" target="iframe">Karte 2</a>
