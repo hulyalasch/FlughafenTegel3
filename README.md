@@ -53,6 +53,6 @@ nav a.active {
 <a href="kepler.gl.html" target="iframe">Karte 1</a>
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
-<iframe name="iframe" src="kepler.gl.html" width="1450px" height="525px">
+<iframe name="iframe" src="kepler.gl.html" width="1455px" height="818px">
 </iframe>
 </body>
