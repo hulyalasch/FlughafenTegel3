@@ -5,9 +5,11 @@
 nav a {
   display: inline;
   text-decoration: none;
-  float: left;
+  text-align: center;
+  float:right; 
+  margin: 0;
+  padding: 0;
   color: #d1e231;
-  padding: 5px 5px;
   border-right: 1px solid #bbb;
 }
 </style>
