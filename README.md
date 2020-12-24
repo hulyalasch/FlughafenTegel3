@@ -6,7 +6,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 50%; /* 1:1 Aspect Ratio */
+  padding-top: 56.25%; 
 }
 .responsive-iframe {
   position: absolute;
@@ -26,5 +26,8 @@
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
 <iframe name="iframe" src="kepler.gl.html" width="1024px" height="800px">
+<div class="container">
+<iframe class="responsive-iframe" src="kepler.gl.html" ></iframe>
+</div>
 </iframe>
 </body>
