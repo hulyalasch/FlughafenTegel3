@@ -1,18 +1,9 @@
 <head>
 <meta charset="utf-8">
 <style>
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
   body {
   position: absolute;
-  top: -110px;
+  top: -120px;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -21,29 +12,21 @@
   border-radius: 25px;
   height: 14%;
   width: 100%;
-  padding: 1px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
 }
-}
-img.Wegeverbindungen {
-  width: 30px;
+img.nav-action-image {
+  width: 14px;
   height: auto;
 }
 nav a {
   display: inline;
   text-decoration: none;
   float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+  color: #d1e231;
+  padding: 14px 16px;
   border-right: 1px solid #bbb;
 }
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+nav a:hover {
+  color: #bff000;
 }
 nav a.active {
   display: inline;
@@ -54,23 +37,22 @@ nav a.active {
   position: absolute;
   padding: 0;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 0px;
   border-radius: 7px;
 }
 .action-block {
   height: 100%;
   width: 20%;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 </style>
 </head>
 <body>
-  <div class="header">
-    <h1>Flughafen Tegel</h1>
-  </div>
+    <header class=header>
+    </header>
 <nav>
-<a href="kepler.gl.html" target="iframe">Wegeverbindungen</a>
-<a href="D:\HCU_MASTERARBEIT\Daten\kepler\FlughafenTegel3"><img class="Wegeverbindungen" src="strasse.png" /></a>
+<a href="kepler.gl.html" target="iframe">Karte 1</a>
+<a href="D:\HCU_MASTERARBEIT\Daten\kepler\FlughafenTegel3"><img class="nav-action-image" src="strasse.png" /></a>
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
 <iframe name="iframe" src="kepler.gl.html" width="100%" height="82%">
