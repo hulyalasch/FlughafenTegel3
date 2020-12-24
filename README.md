@@ -4,7 +4,7 @@ Flughafen Tegel
 <head>
 <meta charset="utf-8">
 <style>
-    span { margin-left: 5em; background-color: red; }
+span { margin-left:9px; background-color: red; }
 </style>
 </head>
 <body>
