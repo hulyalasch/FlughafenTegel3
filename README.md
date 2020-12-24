@@ -1,10 +1,8 @@
 # FlughafenTegel3
-Flughafen Tegel
-<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <style>
-span { margin-left:30px; background-color: red; }
+span { margin-left:100px; background-color: red; }
 </style>
 </head>
 <body>
@@ -15,4 +13,3 @@ span { margin-left:30px; background-color: red; }
 <iframe name="iframe" src="kepler.gl.html" width="1014px" height="768px" >
 </iframe>
 </body>
-</html>
