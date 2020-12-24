@@ -5,7 +5,6 @@
 .iframe-container { 
     position: relative; 
     padding-bottom: 30%; /* 16x9 */ 
-    padding-left:100%
     height: 100%; 
     overflow: hidden; 
     max-width: 100%; 
