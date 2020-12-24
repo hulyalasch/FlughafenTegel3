@@ -24,6 +24,6 @@
 <a href="kepler.gl.html" target="iframe">Karte 1</a>
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
-<iframe name="iframe" src="kepler.gl.html" width="1015px" height="968px" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
+<iframe name="iframe" src="kepler.gl.html" width="1015px" height="968px">
 </iframe>
 </body>
