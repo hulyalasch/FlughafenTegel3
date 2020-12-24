@@ -9,6 +9,6 @@
 <a href="kepler.gl.html" target="iframe">Karte 1</a>
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
-<div align="left"><iframe name="iframe" src="kepler.gl.html" width="1024px" height="800px" frameborder="1px"></iframe></div>
+<iframe name="iframe" src="kepler.gl.html" width="1024px" height="800px"  align="left" vspace="10" hspace="30">
 </iframe>
 </body>
