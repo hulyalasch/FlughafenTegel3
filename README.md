@@ -4,7 +4,7 @@
 <style>
 .iframe-container { 
     position: relative; 
-    padding-bottom: 100%; /* 16x9 */ 
+    padding-bottom: 30%; /* 16x9 */ 
     padding-left:100%
     height: 100%; 
     overflow: hidden; 
