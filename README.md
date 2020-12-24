@@ -7,7 +7,7 @@ nav a {
   text-decoration: none;
   float: left;
   color: #d1e231;
-  padding: 14px 16px;
+  padding: 5px 5px;
   border-right: 1px solid #bbb;
 }
 </style>
