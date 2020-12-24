@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
 <style>
-    p { width: 30em; padding-left: 100px; border: 1px solid red; }
+    iframe { border: none; }
 </style>
 </head>
 <body>
@@ -10,6 +10,6 @@
 <a href="kepler.gl.html" target="iframe">Karte 1</a>
 <a href="hello.html" target="iframe">Karte 2</a>
 </nav>
-<iframe name="iframe" src="kepler.gl.html" width="100%" height="800px" seamless>
+<iframe name="iframe" src="kepler.gl.html" width="100%" height="800px">
 </iframe>
 </body>
