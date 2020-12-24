@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
 <style>
-    iframe { border: none; }
+    iframe { border: none }
 </style>
 </head>
 <body>
