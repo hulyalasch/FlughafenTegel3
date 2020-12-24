@@ -2,7 +2,10 @@
 <head>
 <meta charset="utf-8">
 <style>
-    iframe { border: none }
+@keyframes scaling { 
+    transform: scale(1);}   
+.box { 
+    animation: scaling 10s steps(1) infinite; 
 </style>
 </head>
 <body>
