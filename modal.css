@@ -27,7 +27,7 @@
     height: 75vh;
     width: 100%;
     border-radius: 0px;
-    overflow: auto;
+    overflow: scroll;
     box-sizing: border-box;
   }
   
