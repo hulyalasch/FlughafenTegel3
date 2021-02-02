@@ -4,6 +4,12 @@
       <head>
         <meta charset="UTF-8"/>
         <title>Kepler.gl embedded map</title>
+                        <!--modal css-->
+
+                        <link href="modal.css" rel="stylesheet">
+
+                        <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+                        <script type="text/javascript" src="modalInit.js"></script>
 
         <!--Uber Font-->
         <link rel="stylesheet" href="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/uber-fonts/4.0.0/superfine.css">
@@ -76,6 +82,91 @@
         <!-- We will put our React component inside this div. -->
         <div id="app">
           <!-- Kepler.gl map will be placed here-->
+                                      <!-- Kepler.gl map will be placed here-->
+
+                                    </div>
+
+                                    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+                      
+                                    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+                      
+                                    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                      
+                                    <header class="modal__header">
+                      
+                                    <h4 class="modal__title">
+                      
+                                    Pläne
+                      
+                                    </h4>
+                      
+                                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                      
+                                    </header>
+                      
+                                    <div class="modal-content-content">
+                      
+                                    <p>Planungsgrenzen (Bebauungspläne, Masterplan TXL, Flächennutzungsplan Berlin, Landschaftspläne) werden hier dargestellt. Weiterführende Informationen über die Planungsverfahren sowie Planzeichnungen der Bebauungspläne des Flughafens Tegel sind über die Links erreichbar.</p><hr>
+                      
+                                    <h4>Masterplan TXL 2013 (Projektgrenze TXL)</h4>
+                                    <p><small><b>Kurzbeschreibung: </b>Projektgebietsgrenze des Flughafens Tegel und Masterplan TXL 2013. Masterplan TXL 2013: Aufbauend auf einem Werkstattprozess hat die Senatsverwaltung für Stadtentwicklung und Umwelt in Kooperation mit sechs renommierten Planungsteams und den Teilnehmern der Stadtplanungsakademie Berlin – Helsinki seit 2009 einen Masterplan zur Nachnutzung Tegels entwickelt, der die wesentliche Ausrichtung des Areals in seiner Nutzung und städtebaulichen Entwicklung darstellt. Dieser wurde am 30.04.2013 durch den Senat beschlossen.</small></p>
+                                  
+                                    <p><small><b>Datenquelle: </b>Tegel Projekt GmbH / Projektgrenze BTXL   <a target="_blank" href="https://www.tegelprojekt.de/">Link zum Tegel Projekt GmbH</a></small></p>
+                                    
+                                    <p><small><b>Datenquelle: </b>Senatsverwaltung für Stadtentwicklung und Wohnen / Masterplan TXL 2013  <a target="_blank" href="https://www.stadtentwicklung.berlin.de/staedtebau/projekte/tegel/download/planung/MasterplanBerlinTXL_2013.pdf">Link zur Masterplan TXL 2013</a></small></p> 
+                                    <p><small><a target="_blank" href="https://www.stadtentwicklung.berlin.de/staedtebau/projekte/tegel/planung/masterplan.shtml">Infolink</a></small></p>
+                                    <p><small><b>Aktualität: </b>Projektgebietsgrenze TXL wurde am 28.01.2021 per E-Mail erhalten. Masterplan TXL wurde am 30.04.2013 durch den Senat beschlossen.</small></p><hr> 
+                                    
+                                    <h4>Landschaftskonzept 2017 (Landschaftsraum TXL)</h4>
+                                    <p><small><b>Kurzbeschreibung: </b>Landschaftskonzept 2017 / Landschaftskonzept Tegeler Stadtheide. Als Grenze werden die Baufelder des Landschaftsraums dargestellt. </small></p>
+                                    <p><small><b>Datenquelle: </b>Tegel Projekt GmbH / Baufelder TXL – Landschaftsraum  <a target="_blank" href="https://www.tegelprojekt.de/">Link zum Tegel Projekt GmbH</a></small></p> 
+                                    <p><small><a target="_blank" href="https://www.stadtentwicklung.berlin.de/staedtebau/projekte/tegel/landschaftsraum/landschaftskonzept.shtml">Link zur Landschaftskonzept 2017</a></small></p>
+                                    <p><small><b>Aktualität: </b>TXL Landschaftsraum: 21.10.2019 (am 28.01.2021 per E-Mail erhalten.) Landschaftskonzept 2017: 18.06.2017</small></p><hr> 
+                      
+                                    <h4>Landschaftsplanverfahren</h4>
+                                    <p><small><b>Kurzbeschreibung: </b>Die Übersicht beinhaltet sämtliche Landschaftsplanverfahren, die festgesetzt sind bzw. sich im Verfahren befinden. </small></p>
+                                    <p><small><b>Datenquelle: </b>Geoportal Berlin / Landschaftsplanverfahren (Übersicht)   <a target="_blank" href="https://fbinter.stadt-berlin.de/fb/index.jsp">zur Datenquelle</a></small></p> 
+                                    <p><small><a target="_blank" href="https://www.govdata.de/dl-de/by-2-0/">Datenlizenz Deutschland – Namensnennung – Version 2.0</a></small></p>
+                                    <p><small><b>Aktualität: </b>01.06.2013</small></p><hr> 
+                  
+                                    <h4>FNP Flächennutzungsplan Berlin</h4>
+                                    <p><small><b>Kurzbeschreibung: </b>Landesgrenze von Berlin wird als Geometrie dargestellt. Der Flächennutzungsplan Berlin in der Fassung der Neubekanntmachung vom 5.1.2015 (Abl. S. 31). Planungsstand (Zitat):FNP Berlin in der Fassung der Neubekanntmachung vom 5. Januar 2015 (ABl. S. 31), zuletzt geändert am 22. Dezember 2020 (ABl. 2021 S. 147).</small></p>
+                                    <p><small><b>Datenquelle: </b>Geoportal Berlin / ALKIS Berlin (Amtliches Liegenschaftskatasterinformationssystem) - ALKIS Berlin Land   <a target="_blank" href="https://fbinter.stadt-berlin.de/fb/index.jsp">zur Datenquelle</a></small></p> 
+                                    <p><small><a target="_blank" href="https://www.govdata.de/dl-de/by-2-0/">Datenlizenz Deutschland – Namensnennung – Version 2.0</a></small></p>
+                  
+                                    <p><small><a target="_blank" href="https://fbinter.stadt-berlin.de/fb/?loginkey=showMap&mapId=fnp_2015@senstadt">Link zur FNP (Flächennutzungsplan Berlin), Stand Neubekanntmachung 2015</a></small></p>
+                                    <p><small><a target="_blank" href="https://www.stadtentwicklung.berlin.de/planen/fnp/pix/fnp/fnp_ak_jan_2021.pdf">Link zur FNP (Flächennutzungsplan Berlin), Stand Januar 2021</a></small></p>
+                  
+                                    <p><small><a target="_blank" href="https://www.stadtentwicklung.berlin.de/planen/fnp/pix/bericht/fnpbericht20.pdf">Link zur FNP (Flächennutzungsplan Berlin)-Bericht 2020</a></small></p>
+                                    
+                                    <p><small><b>Aktualität: </b>FNP: veröffentlicht am 16.01.2015 ALKIS Berlin Land: 13.10.2020</small></p><hr> 
+                      
+                                    <h4>Projektgrenze TXL</h4>
+                                    <p><small><b>Kurzbeschreibung: </b>Projektgebietsgrenze des Flughafens Tegel</small></p>
+                                    <p><small><b>Datenquelle: </b>Tegel Projekt GmbH / Projektgrenze BTXL   <a target="_blank" href="https://www.tegelprojekt.de/">Link zum Tegel Projekt GmbH</a></small></p> 
+                                    <p><small><b>Aktualität: </b>am 28.01.2021 per E-Mail erhalten.</small></p><hr> 
+                      
+                                    </div>
+                                    
+                                    <footer class="modal__footer">
+                      
+                                    <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
+                      
+                                    </footer>
+                      
+                                    </div>
+                      
+                                    </div>
+                      
+                                    </div>
+                      
+                                    </div>
+                      
+                                    <div id="button" style="z-index: 99; position: absolute; right: 2vw; bottom: 8vh;">
+                      
+                                    <button data-micromodal-trigger="modal-1" type="button" href="javascript:void(0);">Datenquellen</button>
+                      
+                                    </div>
         </div>
 
         <!-- Load our React component. -->
